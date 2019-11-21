@@ -1,0 +1,5 @@
+Dumping a database: 
+/usr/local/mysql/bin/mysqldump -u root -p <dbname> > ~/filename.sql
+
+Restoring a database:
+/usr/local/mysql/bin/mysql -u root -p --one-database <dbname> < ~/filename.sql
